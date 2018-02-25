@@ -1,5 +1,85 @@
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Acme', sans-serif;
     background-image: url(../images/repeating_crystal_pattern__free__by_erinptah-d92qhue.png);
     background-repeat: repeat;
+}
+
+.row {
+    margin: 5px;
+}
+
+#gameTitle {
+    font-size: 45pt;
+    background: #C57506;
+    color: #075603;
+    border: solid 10px;
+    border-color: #482813;
+    padding: 10px;
+    text-align: center;
+}
+
+#gameInfo {
+    font-size: 14pt;
+    background: #A29C90;
+    background-image: url(../images/90cda8_87c5066d99254844ab2aa719556e14c3_mv2_d_2696_3500_s_4_2.webp);
+    border: solid 10px;
+    border-color: #A29C90;
+    padding: 10px;
+    margin: 5px;
+}
+
+#gameSpace {
+    font-size: 20pt;
+    background-image: url(../images/another-rough-old-and-worn-parchment-paper-1pozp5c-24ch827.jpg);
+    background-size: 100% 100%;
+    border: solid 10px;
+    border-color: #A29C90;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#targetNumber {
+    font-size: 50pt;
+}
+
+#winCount {
+    font-size: 25pt;
+}
+
+#lossCount {
+    font-size: 25pt;
+}
+
+#crystal-red {
+    height: 175px;
+    width: 175px;
+    background-image: url(../images/51v9Zm6-W5L._US500_.jpg);
+    background-size: 100% 100%;
+}
+
+#crystal-yellow {
+    height: 175px;
+    width: 175px;
+    background-image: url(../images/Lime-Quartz.jpg);
+    background-size: 100% 100%;
+}
+
+#crystal-blue {
+    height: 175px;
+    width: 175px;
+    background-image: url(../images/51snWRfynML._US500_.jpg);
+    background-size: 100% 100%;
+}
+
+#crystal-green {
+    height: 175px;
+    width: 175px;
+    background-image: url(../images/10619479-1340982452-230158.jpg);
+    background-size: 100% 100%;
+}
+
+#totalScore {
+    font-size: 35pt;
 }
