@@ -21,21 +21,25 @@ $(document).ready(function () {
     $("#crystal-red").on("click", function () {
         currentScore = currentScore + parseInt($('#crystal-red').val());
         $('#currentScore').text(currentScore);
+        $('#crystal-red-value').text(redValue);
     });
 
     $("#crystal-yellow").on("click", function () {
         currentScore = currentScore + parseInt($('#crystal-yellow').val());
         $('#currentScore').text(currentScore);
+        $('#crystal-yellow-value').text(yellowValue);
     });
 
     $("#crystal-blue").on("click", function () {
         currentScore = currentScore + parseInt($('#crystal-blue').val());
         $('#currentScore').text(currentScore);
+        $('#crystal-blue-value').text(blueValue);
     });
 
     $("#crystal-green").on("click", function () {
         currentScore = currentScore + parseInt($('#crystal-green').val());
         $('#currentScore').text(currentScore);
+        $('#crystal-green-value').text(greenValue);
     });
 
     //victory and losing conditions/counters
@@ -48,6 +52,10 @@ $(document).ready(function () {
             $('#targetNumber').text(targetNumber);
             currentScore = 0;
             $('#currentScore').text(currentScore);
+            $('#crystal-red-value').text('?');
+            $('#crystal-yellow-value').text('?');
+            $('#crystal-blue-value').text('?');
+            $('#crystal-green-value').text('?');
         }
     });
 
@@ -60,6 +68,11 @@ $(document).ready(function () {
             $('#targetNumber').text(targetNumber);
             currentScore = 0;
             $('#currentScore').text(currentScore);
+            $('#currentScore').text(currentScore);
+            $('#crystal-red-value').text('?');
+            $('#crystal-yellow-value').text('?');
+            $('#crystal-blue-value').text('?');
+            $('#crystal-green-value').text('?');
         }
     });
 
